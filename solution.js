@@ -17,3 +17,20 @@ for (let i = 0; i < ARR.length; i++){
     }
 }
 
+//3
+
+let num = "";
+for (let i = 1; i < 5; i++) {
+  for (let j = 0; j < 3; j++) {
+    num += i + " ";
+  }
+}
+console.log(num);
+
+let num2 = "";
+for (let i = 0; i < 3; i++) {
+  for (let j = 0; j <= 4; j++) {
+    num2 += j + " ";
+  }
+}
+console.log(num2);
